@@ -1,6 +1,3 @@
-def preventDevidingByZero():
-    return "The Devision By Zero is not Allowed"
-
 def perform_operation(num1, num2, operation):
     if(operation == 'add'):
         return num1 + num2
@@ -10,6 +7,6 @@ def perform_operation(num1, num2, operation):
         return num1 * num2
     else:
         if(num2 == 0): 
-            preventDevidingByZero()
+            return "The Devision By Zero is not Allowed"
         else:
             return num1 / num2
